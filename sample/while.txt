@@ -1,0 +1,11 @@
+program WhileLoopTest {
+    sankhya main() {
+        var int i = 0;
+
+        jab_tak (i < 5) {
+            chhap i;
+            i = i + 1;
+        }
+    }
+}
+ant

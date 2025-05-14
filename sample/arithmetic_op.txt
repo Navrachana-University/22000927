@@ -1,0 +1,17 @@
+program ArithmeticTest {
+    sankhya main() {
+        var int a = 10;
+        var int b = 3;
+        var int sum = a + b;
+        var int diff = a - b;
+        var int prod = a * b;
+        var int quot = a / b;
+        var int mod = a % b;
+        chhap sum;
+        chhap diff;
+        chhap prod;
+        chhap quot;
+        chhap mod;
+    }
+}
+ant

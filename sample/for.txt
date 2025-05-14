@@ -1,0 +1,10 @@
+program ForLoopTest {
+    sankhya main() {
+        var int i = 0;
+
+        ke_liye (var int j = 0; j < 5; j = j + 1) {
+            chhap j;
+        }
+    }
+}
+ant

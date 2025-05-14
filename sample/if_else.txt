@@ -1,0 +1,12 @@
+program SimpleIfTest {
+    sankhya main() {
+        var int x = 10;
+
+        agar (x > 5) {
+            chhap "x is greater than 5";
+        } nahi_to {
+            chhap "x is not greater than 5";
+        }
+    }
+}
+ant

@@ -45,19 +45,19 @@ It follows principles that resonate with the Indian way of learning:
 To compile and execute Bhaashakaar programs, follow these steps:
 
 1. Generate the parser using Bison:
-   bash
+   ```bash
    bison -d bhaashakaar.y
 
 2. *Generate the lexer using Flex:*
-   bash
+   ```bash
    flex bhaashakaar.l
 
 3. Compile the generated files using GCC:
-   bash
+   ```bash
    gcc lex.yy.c bhaashakaar.tab.c -o bhaashakaar
 
 4. *Run a sample Bhaashakaar program:*
-   bash
+   ```bash
    ./bhaashakaar sample/hello_world.txt
 
 ### 📂 Example Program (hello_world.txt)
